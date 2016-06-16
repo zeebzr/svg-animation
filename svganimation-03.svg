@@ -30,6 +30,7 @@
 				-o-animation: dash 4s linear forwards;
 				-moz-animation: dash 4s linear forwards;
 				animate: dash 4s linear forwards;
+				mix-blend-mode: multiply;
 				/*animation-iteration-count:infinite;*/
 
 			}
@@ -55,6 +56,7 @@
 				-o-animation: dash 4s linear forwards;
 				-moz-animation: dash 4s linear forwards;
 				animate: dash 4s linear forwards;
+				mix-blend-mode: multiply;
 				/*animation-iteration-count:infinite;*/
 			}
 
@@ -119,17 +121,16 @@
 				animate: dash2 4s linear forwards;
 				/*animation-iteration-count:infinite;*/
 				animate-delay:1;
+				mix-blend-mode: multiply;
 			
 			}
 				@-webkit-keyframes dash2 {
 					from {
-						stroke-dashoffset: 200;
-						opacity:0.8;
+						stroke-dashoffset: 250;
 					}
 					to{
 						stroke-dashoffset:10;
 						stroke:#20A2DC;
-						opacity:1;
 					}
 				}		
 
