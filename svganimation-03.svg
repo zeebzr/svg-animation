@@ -3,10 +3,10 @@
 
 
 <style type="text/css">
-	.st0{fill:none;stroke:#20A2DC;stroke-width:0.7953;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#20A2DC;stroke-width:1;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#20A2DC;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st2{
-		fill:#fff;
+		fill:none;
 		stroke:#D35252;
 		stroke-miterlimit:10;
 		stroke-width:1;
@@ -17,8 +17,8 @@
 	.circle1{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.circle2{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 
-	<defs>
-		<style>
+	
+	
 			#Layer_1{
 				width:200px;
 				cursor:pointer;
@@ -76,78 +76,90 @@
 			.circle1{
 				stroke-dasharray:200;
 				stroke-dashoffset:0;
-				-webkit-animation: dash 2s linear forwards;
-				-o-animation: dash 4s linear forwards;
-				-moz-animation: dash 4s linear forwards;
-				animate: dash 4s linear forwards;
+				-webkit-animation: dash-circle1 2s linear forwards;
+				-o-animation: dash-circle1 4s linear forwards;
+				-moz-animation: dash-circle1 4s linear forwards;
+				animate: dash-circle1 4s linear forwards;
 				/*animation-iteration-count:infinite;*/
 			}
-				@-webkit-keyframes dash {
+				@-webkit-keyframes dash-circle1 {
 					from {
 						stroke-dashoffset: 200;
 					}
 					to{
 						stroke-dashoffset:10;
+						
 					}
 				}		
 			.circle2{
 				stroke-dasharray:200;
 				stroke-dashoffset:0;
-				-webkit-animation: dash 3s linear forwards;
-				-o-animation: dash 4s linear forwards;
-				-moz-animation: dash 4s linear forwards;
-				animate: dash 4s linear forwards;
+				-webkit-animation: dash-circle 3s linear forwards;
+				-o-animation: dash-circle 4s linear forwards;
+				-moz-animation: dash-circle 4s linear forwards;
+				animate: dash-circle 4s linear forwards;
 				/*animation-iteration-count:infinite;*/
 			}
-				@-webkit-keyframes dash {
+				@-webkit-keyframes dash-circle {
 					from {
 						stroke-dashoffset: 200;
 					}
 					to{
 						stroke-dashoffset:10;
+					
 					}
 				}		
 
-/*			.line1{
-							{animation: loadingC .6s .1s linear infinite;}
+			.st0{
+				stroke-dasharray:200;
+				stroke-dashoffset:0;
+				-webkit-animation: dash2 5s linear forwards;
+				-o-animation: dash2 4s linear forwards;
+				-moz-animation: dash2 4s linear forwards;
+				animate: dash2 4s linear forwards;
+				/*animation-iteration-count:infinite;*/
+				animate-delay:1;
+			
 			}
-				@keyframes loadingC {
-				    0 {transform: translate(0,0);}
-				    50% {transform: translate(0,15px);}
-				    100% {transform: translate(0,0);}
-				}
+				@-webkit-keyframes dash2 {
+					from {
+						stroke-dashoffset: 200;
+						opacity:0.8;
+					}
+					to{
+						stroke-dashoffset:10;
+						stroke:#20A2DC;
+						opacity:1;
+					}
+				}		
 
-			}*/
-
-
-		</style>
-	</defs>
 </style>
 
-<!-- <line class="st0" x1="20.3" y1="23" x2="20.3" y2="34.9"/>
-<line class="st0" x1="86.3" y1="44.1" x2="86.3" y2="56"/> -->
+<line class="st0" x1="20.3" y1="23" x2="20.3" y2="34.9"/>
+<line class="st0" x1="86.3" y1="44.1" x2="86.3" y2="56"/>
 
 <!-- top left line across -->
 
-<line class="line" x1="14.4" y1="29.7" x2="26.2" y2="29.7"/>
+<line class="st0" x1="14.4" y1="29.7" x2="26.2" y2="29.7"/>
 <!-- left red box -->
 <polygon class="st2" points="59.1,29.7 59.1,57.4 44.2,57.4 40.5,61.2 36.7,65 36.7,57.4 20.3,57.4 20.3,29.7 "/>
 <!-- right circle -->
 <circle class="circle2" cx="69.7" cy="72.4" r="10.6"/>
 <!-- right head -->
-<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -14.8703 123.703)" class="st3" cx="69.7" cy="71.1" rx="4" ry="4"/>
+<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -14.8703 123.703)" class="circle2" cx="69.7" cy="71.1" rx="4" ry="4"/>
 <!-- right body -->
-<path class="st3" d="M69.7,83c2.4,0,4.5-0.8,6.3-2.1c-0.3-2.6-2.2-4.9-4.9-5.6c-3.4-0.8-6.8,1.4-7.5,4.8c-0.1,0.3-0.1,0.5-0.1,0.8
+<path class="circle2" d="M69.7,83c2.4,0,4.5-0.8,6.3-2.1c-0.3-2.6-2.2-4.9-4.9-5.6c-3.4-0.8-6.8,1.4-7.5,4.8c-0.1,0.3-0.1,0.5-0.1,0.8
 	C65.2,82.2,67.3,83,69.7,83z"/>
 <!-- left circle -->
 <circle class="circle1" cx="37" cy="78" r="10.6"/>
 <!-- left head -->
-<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -46.0424 96.2231)" class="st3" cx="37" cy="76.8" rx="4" ry="4"/>
+<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -46.0424 96.2231)" class="circle1" cx="37" cy="76.8" rx="4" ry="4"/>
 <!-- left body -->
-<path class="st3" d="M37,88.6c2.4,0,4.5-0.8,6.3-2.1c-0.3-2.6-2.2-4.9-4.9-5.6c-3.4-0.8-6.8,1.4-7.5,4.8c-0.1,0.3-0.1,0.5-0.1,0.8
+<path class="circle1" d="M37,88.6c2.4,0,4.5-0.8,6.3-2.1c-0.3-2.6-2.2-4.9-4.9-5.6c-3.4-0.8-6.8,1.4-7.5,4.8c-0.1,0.3-0.1,0.5-0.1,0.8
 	C32.4,87.9,34.6,88.6,37,88.6z"/>
 <!-- ottom right line across -->
 <!-- <line class="st0" x1="80.4" y1="51.5" x2="92.3" y2="51.5"/> -->
 <!-- right blue box -->
 <polygon class="st1" points="47.6,23.6 47.6,51.4 62.4,51.4 66.2,55.1 69.9,58.9 69.9,51.4 86.3,51.4 86.3,23.6 "/>
+
 </svg>
