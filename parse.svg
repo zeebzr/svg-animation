@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 108 108" style="enable-background:new 0 0 108 108;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#20A2DC;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;mix-blend-mode: multiply;}
+	.st1{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;mix-blend-mode: multiply;}
+	.st2{fill:none;stroke:#20A2DC;stroke-width:0.7953;stroke-miterlimit:10;mix-blend-mode: multiply;}
+	
+	.middle{
+				-webkit-animation: move 2s linear forwards;
+				-o-animation: dash2 4s linear forwards;
+				-moz-animation: dash2 4s linear forwards;
+				animate: dash2 4s linear forwards;
+				/*animation-iteration-count:infinite;*/
+				animate-delay:0;
+				mix-blend-mode: multiply;
+				transition: transform 500ms linear;
+			
+			}
+				@-webkit-keyframes move {
+					from {
+						opacity:0;
+						transition: transform 500ms ease-in;
+						transform: translate(0,-135px;)
+					}
+					to{
+						opacity:1;
+						 transform: translate(0,6px);
+					}
+				}	
+	
+
+	.top{
+				-webkit-animation: move2 2s linear forwards;
+				mix-blend-mode: multiply;
+				transition: transform 800ms linear;
+				animate-delay:4;
+			
+			}
+				@-webkit-keyframes move2 {
+					from {
+						opacity:0;
+						transition: transform 800ms ease-in;
+						transform: translate(0,135px;)
+					}
+					to{
+						opacity:1;
+						 transform: translate(0,10px);
+					}
+				}	
+
+</style>
+
+<path class="st0" d="M97.3,68.3C98.1,69,98,70,97,70.6l-42.7,25c-1,0.6-2.6,0.6-3.5,0L14,70c-0.9-0.6-0.8-1.6,0.3-2.2l42.7-25c1-0.6,2.6-0.6,3.5,0L97.3,68.3z"/>
+
+
+<g class="middle">
+<path class="st0" d="M97.3,53.2c0.9,0.6,0.8,1.6-0.3,2.2l-42.7,25c-1,0.6-2.6,0.6-3.5,0L14,54.8c-0.9-0.6-0.8-1.6,0.3-2.2l42.7-25c1-0.6,2.6-0.6,3.5,0L97.3,53.2z"/>
+<line class="st2" x1="90.3" y1="59.3" x2="105.1" y2="50.2"/>
+<line class="st2" x1="94" y1="50.9" x2="103.2" y2="57.1"/>
+</g>
+
+<g class="top">
+<path class="st1" d="M97.3,38c0.9,0.6,0.8,1.6-0.3,2.2l-42.7,25c-1,0.6-2.6,0.6-3.5,0L14,39.7c-0.9-0.6-0.8-1.6,0.3-2.2l42.7-25c1-0.6,2.6-0.6,3.5,0L97.3,38z"/>
+<line class="st2" x1="21.9" y1="45.1" x2="7.1" y2="34.9"/>
+<line class="st2" x1="19.8" y1="34.2" x2="2.9" y2="43.8"/>
+</g>
+
+</svg>

@@ -3,25 +3,24 @@
 
 
 <style type="text/css">
-	.st0{fill:none;stroke:#20A2DC;stroke-width:1;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#20A2DC;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#20A2DC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#20A2DC;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st2{
 		fill:none;
 		stroke:#D35252;
 		stroke-miterlimit:10;
-		stroke-width:1;
+		stroke-width:1.5;
 		}
 
-	.st3{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#414142;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 
-	.circle1{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.circle2{fill:none;stroke:#414142;stroke-width:0.7953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.circle1{fill:none;stroke:#414142;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.circle2{fill:none;stroke:#414142;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 
 	
 	
 			#Layer_1{
-				width:200px;
-				cursor:pointer;
+
 			}
 			.st1{
 				stroke-dasharray:200;
@@ -62,8 +61,7 @@
 
 			#Layer_1:hover .st2{
 				/*fill:#D35252;*/
-				transition:0.2s;
-				opacity: 0.8;
+
 			}
 
 				@-webkit-keyframes dash {
@@ -84,16 +82,20 @@
 				animate: dash-circle1 4s linear forwards;
 				/*animation-iteration-count:infinite;*/
 			}
+			#Layer_1:hover .circle1{
+				/*fill:black;	*/
+			}
+
 				@-webkit-keyframes dash-circle1 {
 					from {
 						stroke-dashoffset: 200;
 					}
 					to{
 						stroke-dashoffset:10;
-						
 					}
 				}		
 			.circle2{
+
 				stroke-dasharray:200;
 				stroke-dashoffset:0;
 				-webkit-animation: dash-circle 3s linear forwards;
@@ -159,7 +161,7 @@
 <path class="circle1" d="M37,88.6c2.4,0,4.5-0.8,6.3-2.1c-0.3-2.6-2.2-4.9-4.9-5.6c-3.4-0.8-6.8,1.4-7.5,4.8c-0.1,0.3-0.1,0.5-0.1,0.8
 	C32.4,87.9,34.6,88.6,37,88.6z"/>
 <!-- ottom right line across -->
-<!-- <line class="st0" x1="80.4" y1="51.5" x2="92.3" y2="51.5"/> -->
+ <line class="st0" x1="80.4" y1="51.5" x2="92.3" y2="51.5"/> 
 <!-- right blue box -->
 <polygon class="st1" points="47.6,23.6 47.6,51.4 62.4,51.4 66.2,55.1 69.9,58.9 69.9,51.4 86.3,51.4 86.3,23.6 "/>
 

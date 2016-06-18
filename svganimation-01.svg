@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 276.7 244" style="enable-background:new 0 0 276.7 244;" xml:space="preserve">
+<style type="text/css">
+	.st0{
+		fill:none;
+		stroke:#20A2DC;
+		stroke-width:2.3564;
+		stroke-linecap:square;
+		stroke-dasharray:500;
+				stroke-dashoffset:320;
+				-webkit-animation: dash 1s linear forwards;
+				-o-animation: dash 4s linear forwards;
+				-moz-animation: dash 4s linear forwards;
+				animate: dash 4s linear forwards;
+				mix-blend-mode: multiply;
+				/*animation-iteration-count:infinite;*/
+			}
+
+			#Layer_1:hover .st2{
+				/*fill:#D35252;*/
+
+			}
+
+				@-webkit-keyframes dash {
+					from {
+						stroke-dashoffset: 300;
+					}
+					to{
+						stroke-dashoffset:10;
+					}
+				}		
+	.st1{
+		fill:none;
+		stroke:#414142;
+		stroke-width:2.3563;
+					stroke-dasharray:200;
+				stroke-dashoffset:0;
+				-webkit-animation: dash-circle1 2s linear forwards;
+				-o-animation: dash-circle1 4s linear forwards;
+				-moz-animation: dash-circle1 4s linear forwards;
+				animate: dash-circle1 4s linear forwards;
+				/*animation-iteration-count:infinite;*/
+			}
+			#Layer_1:hover .circle1{
+				/*fill:black;	*/
+			}
+
+				@-webkit-keyframes dash-circle1 {
+					from {
+						stroke-dashoffset: 200;
+					}
+					to{
+						stroke-dashoffset:10;
+					}
+				}		
+	.st2{fill:none;
+		stroke:#D35252;
+		stroke-width:2.3564;
+		stroke-linecap:square;
+		stroke-miterlimit:10;
+		stroke-dasharray:600;
+				stroke-dashoffset:0;
+				-webkit-animation: dash-circle 1s linear forwards;
+				-o-animation: dash-circle 4s linear forwards;
+				-moz-animation: dash-circle 4s linear forwards;
+				animate: dash-circle 4s linear forwards;
+				mix-blend-mode: multiply;
+				/*animation-iteration-count:infinite;*/
+			}
+				@-webkit-keyframes dash-circle {
+					from {
+						stroke-dashoffset: 200;
+					}
+					to{
+						stroke-dashoffset:10;
+					
+					}
+				}		
+	.st3{fill:none;
+		stroke:#F5CD31;
+		stroke-width:2.3564;
+		stroke-linecap:square;
+		stroke-miterlimit:10;
+		stroke-dasharray:450;
+				stroke-dashoffset:300;
+				-webkit-animation: dash-circle 1s linear forwards;
+				-o-animation: dash-circle 4s linear forwards;
+				-moz-animation: dash-circle 4s linear forwards;
+				animate: dash-circle 4s linear forwards;
+				mix-blend-mode: multiply;
+				/*animation-iteration-count:infinite;*/
+			}
+				@-webkit-keyframes dash-circle {
+					from {
+						stroke-dashoffset: 10;
+					}
+					to{
+						stroke-dashoffset:300;
+					}
+				}		
+	.st4{
+		fill:none;
+		stroke:#414142;
+		stroke-width:2.312;
+		stroke-linecap:square;
+		stroke-miterlimit:10;
+		mix-blend-mode: multiply;
+	}
+	.st5{
+		fill:none;
+		stroke:#20A2DC;
+		stroke-width:1.7452;
+		stroke-linecap:square;
+		stroke-miterlimit:10;
+		stroke-dasharray:200;
+				stroke-dashoffset:0;
+				-webkit-animation: dash-circle 1s linear forwards;
+				-o-animation: dash-circle 4s linear forwards;
+				-moz-animation: dash-circle 4s linear forwards;
+				animate: dash-circle 4s linear forwards;
+				/*animation-iteration-count:infinite;*/
+			}
+				@-webkit-keyframes dash-circle {
+					from {
+						stroke-dashoffset: 200;
+					}
+					to{
+						stroke-dashoffset:10;
+					
+					}
+				}		
+</style>
+<line class="st0" x1="255.3" y1="27.3" x2="255.3" y2="69.6"/>
+<circle class="st1" cx="87.5" cy="119.4" r="17.6"/>
+<polyline class="st1" points="176,105.6 193.8,70.1 193.8,70.1 211.6,105.6 "/>
+<circle class="st1" cx="201.1" cy="179.8" r="24.5"/>
+<circle class="st1" cx="56.5" cy="213.6" r="24.5"/>
+<polygon class="st2" points="132.3,46.4 132.3,131.2 184.3,131.2 193,139.9 201.7,148.7 201.7,131.2 255.3,131.2 255.3,46.4 "/>
+<polygon class="st0" points="18.4,75 18.4,159.9 58.8,159.9 58.8,177.3 67.5,168.6 76.2,159.9 156.6,159.9 156.6,75 "/>
+<polygon class="st3" points="132.3,75 132.3,46.4 186.2,46.4 186.2,13.9 46.2,13.9 46.2,75 "/>
+<line class="st1" x1="96.1" y1="127.9" x2="106.4" y2="138.2"/>
+<line class="st4" x1="183.5" y1="91.4" x2="204.1" y2="91.4"/>
+<line class="st0" x1="229.2" y1="46.4" x2="271.5" y2="46.4"/>
+<line class="st0" x1="31.5" y1="13.9" x2="73.8" y2="13.9"/>
+<line class="st5" x1="46.2" y1="29.2" x2="46.2" y2="6"/>
+<line class="st5" x1="18.4" y1="166.9" x2="18.4" y2="143.7"/>
+<line class="st5" x1="30" y1="159.5" x2="6.8" y2="159.5"/>
+<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -161.5109 220.1346)" class="st1" cx="56.5" cy="210.7" rx="9.2" ry="9.2"/>
+<path class="st1" d="M56.5,238.2c5.5,0,10.5-1.8,14.5-4.8c-0.6-6.1-5-11.5-11.4-12.9c-7.9-1.8-15.7,3.2-17.4,11.1
+	c-0.1,0.6-0.2,1.2-0.3,1.8C46,236.4,51,238.2,56.5,238.2z"/>
+<ellipse transform="matrix(0.217 -0.9762 0.9762 0.217 -15.2838 334.8886)" class="st1" cx="201.1" cy="177" rx="9.2" ry="9.2"/>
+<path class="st1" d="M201.1,204.4c5.5,0,10.5-1.8,14.5-4.8c-0.6-6.1-5-11.5-11.4-12.9c-7.9-1.8-15.7,3.2-17.4,11.1
+	c-0.1,0.6-0.2,1.2-0.3,1.8C190.6,202.6,195.7,204.4,201.1,204.4z"/>
+</svg>
