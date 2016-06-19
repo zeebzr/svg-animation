@@ -36,6 +36,8 @@
 				mix-blend-mode: multiply;
 				transition: transform 800ms linear;
 				animate-delay:4;
+				<!-- animation-iteration-count:infinite; -->
+
 			
 			}
 				@-webkit-keyframes move2 {

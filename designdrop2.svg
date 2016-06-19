@@ -14,14 +14,10 @@
 
 <defs>
         <linearGradient id="skyGradient" x1="100%" y1="100%">
-          <stop offset="0%" stop-color="#038090" stop-opacity=".5">
-            <animate attributeName="stop-color" values="#038090" dur="14s" repeatCount="indefinite" />
-          </stop>
-          <stop offset="100%" stop-color="#00A896" stop-opacity=".5">
-            <animate attributeName="stop-color" values="#00A896" dur="14s" repeatCount="indefinite" />
-            <animate attributeName="offset" values=".95;.80;.60;.40;.20;0;.20;.40;.60;.80;.95" dur="14s" repeatCount="indefinite" />    
+          <stop offset="0%" stop-color="#06668E" stop-opacity=".5">
+            <animate attributeName="stop-color" values="#06668E;#038090;#00A896;#30B996;#00A896;#038090;#06668E;" dur="8s" repeatCount="indefinite" />
           </stop>
         </linearGradient>
-      </defs>
+</defs>
 
 </svg>
